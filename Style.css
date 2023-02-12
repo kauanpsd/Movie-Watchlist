@@ -127,13 +127,14 @@ input{
 
 #movie-list{
     height: 100%;
+    width: 100%;
     padding-bottom: 34rem;
 }
 
 #explore-img{
     padding-top: 22.1rem;
     margin: 0 auto;
-    display: flex;
+    display: none; /* SUMIU! */
     flex-direction: column;
     width: 14.8rem;
     align-items: center;
@@ -142,4 +143,104 @@ input{
 #img-vector{
     width: 7rem;
     margin-bottom: 1rem;
+}
+
+/* ------------------------- Movie Card --------------------------- */
+
+.movies{
+    margin-top: 6.1rem;
+}
+
+.movie-card{
+    display: flex;
+    align-items: center;
+    color: white;
+    max-width: 46.1rem;
+    margin: 0 auto;
+    margin-top: 2.5rem ;
+    
+}
+
+.movie-poster{
+    max-width: 19.9rem;
+    
+}
+
+.movie-text{
+    max-width: 35rem;
+    height: 11.9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+
+.movie-description{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #A5A5A5;
+    margin: 0 0 0 2rem;
+}
+
+.movie-title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 2.2rem ;
+    max-width: 15.2rem;
+    margin-left: 2.1rem;
+    
+}
+
+.movie-title h2{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    width: 16rem;
+}
+
+.movie-title p {
+    display: inline;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.movie-title .star{
+    width: 1.3rem;
+    height: 1rem;
+
+}
+
+.movie-info{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+}
+
+.movie-text .movie-info p, a{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 20px;
+    display: flex;
+}
+
+.plus-icon{
+    margin-right: 0.5rem;
+}
+
+.line{
+    margin-top: ;
+    max-width: 46.1rem;
+    background-color: #a5a5a52f;
+    height: 0.1rem;
+    margin: 0 auto;
+    margin-top: 2rem;
 }
